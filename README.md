@@ -1,4 +1,4 @@
-# [AnophelesMasterThesis](https://github.com/1080533/AnophelesMasterThesis) 
+# [MSc in Modelling for Global Health Thesis Code](https://github.com/1080533/AnophelesMasterThesis) 
 AnophelesModel is an R package developed by the Analytics and Intervention Modelling Group at Swiss TPH for quantifying the impact of vector control interventions according to mosquito species characteristics. It can be used to parameterize a dynamic model of the mosquito feeding cycle using data about mosquito bionomics (entomological characteristics) and biting patterns, as well as human activity and intervention effects. The different types of data have been extracted from field studies and are included in the package. The model infers the species-specific impact of various vector control interventions on the vectorial capacity. The package can be used to compare the impact of interventions for different mosquito species and to generate geographic-specific parameterizations for the entomological and vector control components of more complex models of malaria transmission dynamics.
 
 This package is associated with the following manuscript:
