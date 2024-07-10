@@ -19,4 +19,9 @@ To install the package:
 ```{r}
 remotes::install_github("1080533/AnophelesMasterThesis", build_vignettes = TRUE)
 ```
-IMPORTANT: To be able to build the vignette during package installation, you need to have the following packages installed: remotes, DiagrammeR, ggpubr, ggplot2, and Hmisc.
+Note: To be able to build the vignette during package installation, you need to have the following packages installed: remotes, DiagrammeR, ggpubr, ggplot2, and Hmisc.
+
+To load the package:
+```{r}
+library("AnophelesModel")
+```
