@@ -17,6 +17,6 @@ The "def_intervention_effects" used to define intervention effects for the final
 
 To install the package:
 ```{r}
-devtools::install_github("1080533/AnophelesMasterThesis", build_vignettes = TRUE)
+remotes::install_github("1080533/AnophelesMasterThesis", build_vignettes = TRUE)
 ```
-IMPORTANT: To be able to build the vignette during package installation, you need to have the following packages installed: DiagrammeR, ggpubr, and Hmisc.
+IMPORTANT: To be able to build the vignette during package installation, you need to have the following packages installed: remotes, DiagrammeR, ggpubr, ggplot2, and Hmisc.
