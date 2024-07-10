@@ -4,16 +4,16 @@ AnophelesModel is an R package developed by the Analytics and Intervention Model
 This package is associated with the following manuscript:
 Golumbeanu et al. AnophelesModel: An R package to interface mosquito bionomics, human exposure and intervention effects with models of malaria intervention impact. bioRxiv. 2023. Available from: https://doi.org/10.1101/2023.10.17.562838
 
-The data and scripts used for generating Figures 2-6 in the manuscript are located at https://github.com/1080533/AnophelesMasterThesis/tree/main/extdata/thesis_scripts .
+The data and scripts used for generating Figures 2-6 in the manuscript are located in the ["thesis_scripts" folder nested within the "extdata" folder](https://github.com/1080533/AnophelesMasterThesis/tree/main/extdata/thesis_scripts).
 Figure 2 was generated using the script named "gambiae_stephensi_bionomics.R". Figure 3 was generated using biting pattern data inputted in the same script.
 Figure 4 was generated using the script named "gambiae_stephensi_impact.R".
 Figures 5 and 6 were generated using the script named "anopheles_sensitivity.R".
 
-The scripts used to integrate human exposure to mosquitoes as a new input parameter, called "specified_multiplier", for the package's "def_intervention_effects" function are located at https://github.com/1080533/AnophelesMasterThesis/tree/main/extdata/thesis_scripts and https://github.com/1080533/AnophelesMasterThesis/tree/main/R .
-The "get_in_out_exp" function with the added forced exposure coefficient parameter ("specified_multiplier") was first revised in the script named "get_exposure.R" and copied to the script named "AnophelesModel_db_query.R".
-The "calc_interv_effects_db" function used to initialise the effects of an intervention object was revised to accept the "specified_multiplier" input parameter in the script named "internal_intervention_init.R".
-The "indoor_outdoor" variable calculated via the "get_in_out_exp" function was revised to accept the "specified_multiplier" parameter in the script named "internal_intervention_models.R". The "calc_LLINs_p" and "calc_IRS_p" functions were then revised to accept the "specified_multiplier" input parameter in the same script.
-The "def_intervention_effects" used to define intervention effects for the final entomological model given the specified parameterisations was revised to accept the "specified_multiplier" input parameter in the script named "AnophelesModel_init.R".
+The scripts used to integrate human exposure to mosquitoes as a new input parameter, called "specified_multiplier", for the package's "def_intervention_effects" function are located in the ["thesis_scripts" folder](https://github.com/1080533/AnophelesMasterThesis/tree/main/extdata/thesis_scripts), as well as the ["R" folder](https://github.com/1080533/AnophelesMasterThesis/tree/main/R).
+The "get_in_out_exp" function with the added forced exposure coefficient parameter ("specified_multiplier") was first revised in the "[get_exposure.R](https://github.com/1080533/AnophelesMasterThesis/blob/main/extdata/thesis_scripts/get_exposure.R)" file and copied to the "[AnophelesModel_db_query.R](https://github.com/1080533/AnophelesMasterThesis/blob/main/R/AnophelesModel_db_query.R)" file.
+The "calc_interv_effects_db" function used to initialise the effects of an intervention object was revised to accept the "specified_multiplier" input parameter in the "[internal_intervention_init.R](https://github.com/1080533/AnophelesMasterThesis/blob/main/R/internal_intervention_init.R)" file.
+The "indoor_outdoor" variable calculated via the "get_in_out_exp" function was revised to accept the "specified_multiplier" parameter in "[internal_intervention_models.R](https://github.com/1080533/AnophelesMasterThesis/blob/main/R/internal_intervention_models.R)" file. The "calc_LLINs_p" and "calc_IRS_p" functions were then revised to accept the "specified_multiplier" input parameter in the same script file.
+The "def_intervention_effects" used to define intervention effects for the final entomological model given the specified parameterisations was revised to accept the "specified_multiplier" input parameter in the "[AnophelesModel_init.R](https://github.com/1080533/AnophelesMasterThesis/blob/main/R/AnophelesModel_init.R)" file.
 
 To install the package:
 ```{r}
