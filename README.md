@@ -4,10 +4,10 @@ AnophelesModel is an R package developed by the Analytics and Intervention Model
 This package is associated with the following manuscript:
 Golumbeanu et al. AnophelesModel: An R package to interface mosquito bionomics, human exposure and intervention effects with models of malaria intervention impact. bioRxiv. 2023. Available from: https://doi.org/10.1101/2023.10.17.562838.
 
-The data and scripts used for generating Figures 2-6 in the manuscript are located in the ["thesis_scripts" folder nested within the "extdata" folder](https://github.com/1080533/AnophelesMasterThesis/tree/main/extdata/thesis_scripts).
+The data and scripts used for generating Figures 2-5 in the manuscript are located in the ["thesis_scripts" folder nested within the "extdata" folder](https://github.com/1080533/AnophelesMasterThesis/tree/main/extdata/thesis_scripts).
 Figure 2 was generated using the script named "gambiae_stephensi_bionomics.R". Figure 3 was generated using biting pattern data inputted in the same script.
 Figure 4 was generated using the script named "gambiae_stephensi_impact.R".
-Figures 5 and 6 were generated using the script named "anopheles_sensitivity.R".
+Figure 5 was generated using the script named "anopheles_sensitivity.R".
 
 The scripts used to integrate human exposure to mosquitoes as a new input parameter, called "specified_multiplier", for the package's "def_intervention_effects" function are located in the ["thesis_scripts" folder](https://github.com/1080533/AnophelesMasterThesis/tree/main/extdata/thesis_scripts), as well as the ["R" folder](https://github.com/1080533/AnophelesMasterThesis/tree/main/R).
 The "get_in_out_exp" function with the added forced exposure coefficient parameter ("specified_multiplier") was first revised in the "[get_exposure.R](https://github.com/1080533/AnophelesMasterThesis/blob/main/extdata/thesis_scripts/get_exposure.R)" file, then copied to the "[AnophelesModel_db_query.R](https://github.com/1080533/AnophelesMasterThesis/blob/main/R/AnophelesModel_db_query.R)" file.
